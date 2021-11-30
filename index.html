@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Trivia</title>
+
+</head>
+
+<body>
+    <h1>Teste os seus conhecimentos</h1>
+
+    <div id="campo">
+        <h2>Perguntas : </h2>
+
+        <div class="q1">
+            <label><b>1 - Qual tecnológia é uma linguagem de marcação ?</b></label> <br>
+
+            <input type="radio" id="op1" name="q01">a) HTML <br>
+            <input type="radio" id="op2" name="q01">b) CSS <br>
+            <input type="radio" id="op3" name="q01">c) JavaScript
+        </div><br>
+
+
+        <div class="q2">
+            <label><b>2 - Qual tecnológia cria páginas de Web dinâmicas ?</b></label> <br>
+
+            <input type="radio" id="op4" name="q02">a) CSS <br>
+            <input type="radio" id="op5" name="q02">b) JavaScript <br>
+            <input type="radio" id="op6" name="q02">c) HTML
+        </div>
+
+        <div class="q3">
+            <label><b>3 - Qual a linguagem usada para dar estilo a uma página Web ?</b></label> <br>
+
+            <input type="radio" id="op7" name="q03">a)JavaScript <br>
+            <input type="radio" id="op8" name="q03">b) HTML <br>
+            <input type="radio" id="op9" name="q03">c) CSS
+        </div>
+
+        <button class="botao" type="submit" onclick="enviar()">Enviar</button>
+
+    </div>
+
+    <div id="res"></div>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
