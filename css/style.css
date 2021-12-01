@@ -1,5 +1,29 @@
 h1{
     color: blueviolet;
     text-align: center;
+    font-size: 35px;
+}
+ img{
+      height: 250px;
+      margin-left: 40%;
+ }
+
+ #campo{
+   margin-left: 35%;
+
 }
 
+ h2{
+     font-size: 25px;
+     color: rgb(192, 55, 192);
+ }
+
+ label{
+     color: black;
+     font-size: 20px; 
+ }
+
+ input{
+     margin: 10px 0;
+    
+ }
