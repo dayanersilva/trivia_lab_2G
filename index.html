@@ -13,10 +13,9 @@
 
 <body>
     <header>
+        <h1>Teste os seus conhecimentos</h1>
         <img src="img/Trivia_img.png" alt="img trivia">
     </header>
-
-    <h1>Teste os seus conhecimentos</h1>
 
     <div id="campo">
         <h2>Questões: </h2>
@@ -24,33 +23,32 @@
         <div class="q1">
             <label><b>1 - Qual tecnológia é uma linguagem de marcação ?</b></label> <br>
 
-            <input type="radio" id="op1" name="q01">a) HTML <br>
-            <input type="radio" id="op2" name="q01">b) CSS <br>
-            <input type="radio" id="op3" name="q01">c) JavaScript
+            <input type="radio" id="op1" name="q01"> a) HTML <br>
+            <input type="radio" id="op2" name="q01"> b) CSS <br>
+            <input type="radio" id="op3" name="q01"> c) JavaScript
         </div><br>
 
 
         <div class="q2">
             <label><b>2 - Qual tecnológia cria páginas de Web dinâmicas ?</b></label> <br>
 
-            <input type="radio" id="op4" name="q02">a) CSS <br>
-            <input type="radio" id="op5" name="q02">b) JavaScript <br>
-            <input type="radio" id="op6" name="q02">c) HTML
+            <input type="radio" id="op4" name="q02"> a) CSS <br>
+            <input type="radio" id="op5" name="q02"> b) JavaScript <br>
+            <input type="radio" id="op6" name="q02"> c) HTML
         </div><br>
 
         <div class="q3">
             <label><b>3 - Qual a linguagem usada para dar estilo a uma página Web ?</b></label> <br>
 
-            <input type="radio" id="op7" name="q03">a)JavaScript <br>
-            <input type="radio" id="op8" name="q03">b) HTML <br>
-            <input type="radio" id="op9" name="q03">c) CSS
-        </div><br>
+            <input type="radio" id="op7" name="q03"> a)JavaScript <br>
+            <input type="radio" id="op8" name="q03"> b) HTML <br>
+            <input type="radio" id="op9" name="q03"> c) CSS
+        </div>
 
-        <button class="botao" type="submit" onclick="enviar()">Enviar</button>
-
+        <div id="res"></div>
     </div>
 
-    <div id="res"></div>
+    <input class="botao" type="submit" onclick="enviar()" />
 
     <script src="js/main.js"></script>
 

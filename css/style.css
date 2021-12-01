@@ -1,29 +1,76 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+
 h1{
     color: blueviolet;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
+
+h2{
+    font-size: 25px;
+    color: rgb(192, 55, 192);
+}
+
  img{
-      height: 250px;
-      margin-left: 40%;
+      height: 150px;
+      display: block;
+      margin: 10px auto;
  }
 
- #campo{
-   margin-left: 35%;
-
+ body {
+    background-color:white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: blueviolet;
 }
 
- h2{
-     font-size: 25px;
-     color: rgb(192, 55, 192);
- }
+#campo {
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    width: 1024px;
+    height: 500px;
+    padding:10px;
+    margin: 0 auto;
+    color: black;
+}
 
- label{
-     color: black;
-     font-size: 20px; 
- }
+label{
+    font-size: 25px;
+    color: blueviolet;
+}
 
- input{
-     margin: 10px 0;
-    
- }
+#res {
+    height: 10px;
+    font-size: 20px;
+    color:black ;
+    margin-top: 20px;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-top: 3em;
+    color: #ffffff;
+    padding: 1em 2em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    top: 120%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+   background: #ccbbff; 
+   box-shadow: rgba(0,0,0,0.2);
+   text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
